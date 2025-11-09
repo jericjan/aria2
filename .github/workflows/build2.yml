@@ -60,7 +60,7 @@ jobs:
 
     - name: Build
       run: |
-        git clone --depth=1 https://github.com/aria2/aria2.git aria2_git
+        git clone --depth=1 https://github.com/jericjan/aria2.git aria2_git
         cd aria2_git
 
         autoreconf -i
@@ -174,7 +174,7 @@ jobs:
         export HOST=x86_64-w64-mingw32
         export PREFIX=/usr/$HOST
 
-        git clone --depth=1 https://github.com/aria2/aria2.git aria2_git
+        git clone --depth=1 https://github.com/jericjan/aria2.git aria2_git
         cd aria2_git
         autoreconf -i
         
